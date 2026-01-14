@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    tools {
+    /*tools {
         nodejs 'NodeJS-18'
-    }
+    }*/
 
     stages {
         stage('Clone Code') {
